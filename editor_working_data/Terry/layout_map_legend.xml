@@ -1,0 +1,6 @@
+<layout_map>
+	<layout_map_entry color="0;0;255">TestData/CampaignTestData/models/terry_guide_models/blue_guide.rigid_model_v2</layout_map_entry>
+	<layout_map_entry color="255;0;0">TestData/CampaignTestData/models/terry_guide_models/red_guide.rigid_model_v2</layout_map_entry>
+	<layout_map_entry color="255;255;0">TestData/CampaignTestData/models/terry_guide_models/yellow_guide.rigid_model_v2</layout_map_entry>
+	<layout_map_entry color="150;0;255">TestData/CampaignTestData/models/terry_guide_models/purple_guide.rigid_model_v2</layout_map_entry>
+</layout_map>

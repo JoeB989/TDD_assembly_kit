@@ -1,0 +1,91 @@
+<!--
+ Input for TDD_Tile_Upgrade_Generator
+ Used to generate (FACTIONs of) tile_upgrades.xml
+ 
+ name='NAME'			maps to		<UPGRADE_GROUP name='NAME'>
+ 
+ id='ID'				maps to		<UPGRADE src='terrain\tiles\battle\settlement_ID_cities\ID_city
+ 
+ comment='comment'		maps to		<!== ===================== COMMENT ===================== ==>
+									<!== comment Minor Settlements ==>
+ 
+ level='LEVEL' and
+ variants='V,W,X'		maps to		<UPGRADE src='terrain\tiles\battle\settlement_ID_cities\ID_city_V\LEVEL' etc.
+									<UPGRADE src='terrain\tiles\battle\settlement_ID_cities\ID_city_W\LEVEL' etc.
+									<UPGRADE src='terrain\tiles\battle\settlement_ID_cities\ID_city_X\LEVEL' etc.
+-->
+<DATA>	
+	<FACTION name='rom_sc_dunedain' id='gondor' comment='Gondor'>
+		<CITY level='minor'  variants='a,b,c' />
+		<CITY level='small'  variants='a,b,c' />
+		<CITY level='medium' variants='a,b,c' />
+		<PORT level='minor'  variants='a,b' />
+		<PORT level='small'  variants='a,b' />
+		<PORT level='medium' variants='a,b' />
+		<UNIQUE_CITY name='cair_andros'  levels='small,medium' />
+		<UNIQUE_CITY name='osgiliath'	 levels='small,medium' />
+		<UNIQUE_CITY name='ethring'		 levels='small,medium' />
+		<UNIQUE_CITY name='minas_tirith' levels='small,medium' />
+		<UNIQUE_PORT name='annulond'	 levels='small,medium' />
+		<UNIQUE_PORT name='dol_amroth'	 levels='small,medium' />
+		<UNIQUE_PORT name='linhir'		 levels='small,medium' />
+		<UNIQUE_PORT name='lond_galen'	 levels='small,medium' />
+		<UNIQUE_PORT name='pelargir'	 levels='small,medium' />
+	</FACTION>
+	<FACTION name='rom_sc_orcs' id='orc' comment='Orcs'>
+		<CITY level='minor'  variants='a,b,c' />
+		<CITY level='small'  variants='a,b,c' />
+		<CITY level='medium' variants='a,b,c' />
+		<PORT level='minor'  variants='a,b' />
+		<PORT level='small'  variants='a,b' />
+		<PORT level='medium' variants='a,b' />
+	</FACTION>
+	<FACTION name='rom_sc_southrons' id='southron' comment='Southrons'>
+		<CITY level='minor'  variants='a,b,c' />
+		<CITY level='small'  variants='a,b,c' />
+		<CITY level='medium' variants='a,b,c' />
+		<PORT level='minor'  variants='a,b' />
+		<PORT level='small'  variants='a,b' />
+		<PORT level='medium' variants='a,b' />
+	</FACTION>
+	<FACTION name='rom_sc_easterlings' id='easterling' comment='Easterlings'>
+		<CITY level='minor'  variants='a,b,c' />
+		<CITY level='small'  variants='a,b,c' />
+		<CITY level='medium' variants='a,b,c' />
+		<PORT level='minor'  variants='a,b' />
+		<PORT level='small'  variants='a,b' />
+		<PORT level='medium' variants='a,b' />
+	</FACTION>
+	<FACTION name='rom_sc_wildmen' id='wildmen' comment='Wildmen'>
+		<CITY level='minor'  variants='a,b,c' />
+		<CITY level='small'  variants='a,b,c' />
+		<CITY level='medium' variants='a,b,c' />
+		<PORT level='minor'  variants='a,b' />
+		<PORT level='small'  variants='a,b' />
+		<PORT level='medium' variants='a,b' />
+	</FACTION>
+	<FACTION name='rom_sc_middle_men' id='middle_men' comment='Middle Men'>
+		<CITY level='minor'  variants='a,b,c' />
+		<CITY level='small'  variants='a,b,c' />
+		<CITY level='medium' variants='a,b,c' />
+		<PORT level='minor'  variants='a,b' />
+		<PORT level='small'  variants='a,b' />
+		<PORT level='medium' variants='a,b' />
+	</FACTION>
+	<FACTION name='rom_cult_dwarves' id='dwarven' comment='Dwarven'>
+		<CITY level='minor'  variants='a,b,c' />
+		<CITY level='small'  variants='a,b,c' />
+		<CITY level='medium' variants='a,b,c' />
+		<PORT level='minor'  variants='a,b' />
+		<PORT level='small'  variants='a,b' />
+		<PORT level='medium' variants='a,b' />
+	</FACTION>
+	<FACTION name='rom_cult_elves' id='elven' comment='Elven'>
+		<CITY level='minor'  variants='a,b,c' />
+		<CITY level='small'  variants='a,b,c' />
+		<CITY level='medium' variants='a,b,c' />
+		<PORT level='minor'  variants='a,b' />
+		<PORT level='small'  variants='a,b' />
+		<PORT level='medium' variants='a,b' />
+	</FACTION>
+</DATA>

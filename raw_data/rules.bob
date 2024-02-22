@@ -1,0 +1,69 @@
+[Texture]
+	<Files> = ..._mask1.*, ..._mask2.*, ..._mask3.*, ..._colormask.*, ..._colormask2.*, ..._colormask3.*
+	CompressionFormat = dxt5
+
+[Texture]
+	<Files> = ..._diffuse.*, ..._ao.*
+	CompressionFormat = dxt1_or_dxt1a
+	NeedGammaCorrection = true
+    UseHighQualityOneBitAlphaFiltering = true
+
+[Texture]
+	<Files> = ..._diffuse_alpha_data.*
+	CompressionFormat = dxt5
+	NeedGammaCorrection = true
+	Compressor = ati
+
+[Texture]
+	<Files> = ..._diffuse_ab.*
+	CompressionFormat = dxt5
+	NeedGammaCorrection = true
+	PremultipliedAlpha = true
+	Compressor = ati
+
+[Texture]
+	<Files> = ..._specular.*
+	CompressionFormat = dxt1
+	NeedGammaCorrection = true
+
+[Texture]
+	<Files> = ..._dirty_map.*, ..._weight_map.*, ..._wound_map.*, ..._dirtmask.*, ..._dirt.*, ..._decaldirtmask.*, ..._decaldirtmap.*, ..._decalmask.*
+	CompressionFormat = dxt5
+	
+[Texture]
+	<Files> = ..._packed_normal.*
+	CompressionFormat = dxt5n	
+	NormalMap = true
+	
+[Texture]
+	<Files> = ..._normal.*
+	CompressionFormat = dxt5n
+	NormalMap = true
+	
+[Texture]
+	<Files> = ..._parallax.*, .../medium_detail_map.dds
+	CompressionFormat = dxt5
+	ParallaxMap = true
+
+[Texture]
+	<Files> = ..._dirtmap.*
+	CompressionFormat = dxt1
+	
+[Texture]
+	<Files> = ..._density.*
+	CompressionFormat = dxt1_or_dxt3
+	
+[Texture]
+	<Files> = ..._gloss.*, ..._level.*
+	CompressionFormat = dxt1
+	NeedGammaCorrection = true
+	Compressor = ati
+	
+[Texture]
+	<Files> = ..._smoothness.*, ..._metalness.*
+	CompressionFormat = dxt1
+	NeedGammaCorrection = true
+
+[Texture]
+	<Files> = ..._billboard_normal.*, ..._billboard_displacement.*
+	CompressionFormat = dxt5

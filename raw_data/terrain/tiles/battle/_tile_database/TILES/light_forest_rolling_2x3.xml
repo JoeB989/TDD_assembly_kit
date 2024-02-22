@@ -1,0 +1,10 @@
+<TILE serialise_version='3' location='terrain\tiles\battle\light_forest_rolling\2x3' tile_set='light_forest_rolling' mask='' width='2' height='3' red='0.000000' green='0.000000' blue='0.000000' requires_infield_lodding='true' random_rotatable='true' custom_alpha_blend_texture='' scalable='false' encampable='false' custom_blend_tile=''>
+	<TEXTURE_GROUP red='grass' green='mud' blue='rock' alpha='forest'/>
+	<VARIATIONS>
+		<VARIATION serialise_version='2' location='aa' min_height='-0.523095' scale='20.001020' normal_strength='1.000000' overlap_border_size='1.000000' raw_data_tri_density='128' blend_common='' index_common='' normal_common='' red='0.000000' green='0.000000' blue='0.000000' barbarian='false'/>
+		<VARIATION serialise_version='2' location='ab' min_height='-0.439994' scale='20.429924' normal_strength='1.000000' overlap_border_size='1.000000' raw_data_tri_density='128' blend_common='' index_common='' normal_common='' red='0.000000' green='0.000000' blue='0.000000' barbarian='false'/>
+		<VARIATION serialise_version='2' location='ac' min_height='-0.541039' scale='20.541039' normal_strength='1.000000' overlap_border_size='1.000000' raw_data_tri_density='128' blend_common='' index_common='' normal_common='' red='0.000000' green='0.000000' blue='0.000000' barbarian='false'/>
+	</VARIATIONS>
+	<TILE_LINK_TARGETS/>
+	<TILE_LINKS/>
+</TILE>

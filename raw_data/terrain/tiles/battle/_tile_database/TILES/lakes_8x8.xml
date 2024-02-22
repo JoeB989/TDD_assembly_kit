@@ -1,0 +1,8 @@
+<TILE serialise_version='3' location='terrain\tiles\battle\lakes\8x8' tile_set='lakes' mask='0000110000111111111111111111111111111111111111110011111100001100' width='8' height='8' red='0.000000' green='0.000000' blue='0.000000' requires_infield_lodding='true' random_rotatable='true' custom_alpha_blend_texture='terrain\textures\battle\alpha\8x8_lake.dds' scalable='false' encampable='false' custom_blend_tile=''>
+	<TEXTURE_GROUP red='grass' green='sand' blue='sand' alpha='mud'/>
+	<VARIATIONS>
+		<VARIATION serialise_version='2' location='aa' min_height='-30.427092' scale='30.802118' normal_strength='2.000000' overlap_border_size='1.000000' raw_data_tri_density='128' blend_common='' index_common='' normal_common='' red='0.000000' green='0.000000' blue='0.000000' barbarian='false'/>
+	</VARIATIONS>
+	<TILE_LINK_TARGETS/>
+	<TILE_LINKS/>
+</TILE>

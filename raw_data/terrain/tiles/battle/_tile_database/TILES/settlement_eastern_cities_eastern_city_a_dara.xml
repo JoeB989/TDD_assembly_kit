@@ -1,0 +1,8 @@
+<TILE serialise_version='3' location='terrain\tiles\battle\settlement_eastern_cities\eastern_city_a_dara' tile_set='settlement_eastern_cities' mask='' width='8' height='8' red='235.000000' green='146.000000' blue='215.000000' requires_infield_lodding='true' random_rotatable='true' custom_alpha_blend_texture='' scalable='false' encampable='false' custom_blend_tile=''>
+	<TEXTURE_GROUP red='settlement_1' green='settlement_2' blue='settlement_3' alpha='forest'/>
+	<VARIATIONS>
+		<VARIATION serialise_version='2' location='custom' min_height='0.000000' scale='20.499687' normal_strength='2.000000' overlap_border_size='1.000000' raw_data_tri_density='128' blend_common='' index_common='' normal_common='' red='230.000000' green='91.000000' blue='17.000000' barbarian='true'/>
+	</VARIATIONS>
+	<TILE_LINK_TARGETS/>
+	<TILE_LINKS/>
+</TILE>

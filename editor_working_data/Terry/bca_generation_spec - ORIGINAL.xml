@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <global 
+    deployment_min_area="1" 
+    deployment_split_width="1" 
+    deployment_coarseness="0.05"
+    map_border_for_outfield="32"
+    delete_invalid="true"
+  />
+
+  <!-- For debugging a single catchment area -->
+  <!-- <debug x="82" y="94" config="0" alliance="-1" /> -->
+  
+  <!-- Note that bca infield can contain either a tile variation path, a tile path, or a tile set name. -->
+  
+  <bca type="coastal_battle" boundary="1">
+    <infield>
+      sea_coast_landing
+    </infield>
+    <infield_restriction>
+
+	settlement_eastern_ports
+	settlement_nordic_ports
+	settlement_sassanid_ports
+	settlement_western_ports
+	settlement_western_christian_ports
+	settlement_western_muslim_ports
+	settlement_gondor_ports
+ 
+	settlement_eastern_cities
+	settlement_nordic_cities
+	settlement_sassanid_cities
+	settlement_western_cities
+	settlement_western_christian_cities
+	settlement_western_muslim_cities
+	settlement_gondor_cities
+
+      river_mouth
+      cliff_custom
+      mediterranean_mountains
+      atlantic_mountains
+      eastern_desert_mountains
+    </infield_restriction>
+    <deployment category="Coast" split="true">
+      <restriction>
+        sea_coast_landing
+        sea_coast
+        cliff_custom
+        river_ford
+        river
+        river_crossing
+        river_mouth
+        river_start
+      </restriction>
+    </deployment>
+  </bca>
+  
+  <bca type="land_ambush" boundary="2">
+    <infield>
+      terrain_rugged_hills/4x4
+      terrain_rugged_hills/8x8
+      terrain_rugged_hills_med/4x4
+      terrain_rugged_hills_med/8x8
+      terrain_rugged_hills_desert/4x4
+      terrain_rugged_hills_desert/8x8
+      light_forest_rugged/4x4
+      light_forest_rugged/8x8
+      dense_forest_rugged/4x4
+      dense_forest_rugged/8x8
+      terrain_plains/4x4
+      terrain_plains/8x8
+      terrain_plains_med/4x4
+      terrain_plains_med/8x8
+      light_forest_plains/4x4
+      light_forest_plains/8x8
+      dense_forest_plains/4x4
+      dense_forest_plains/8x8
+      terrain_rolling_hills/4x4
+      terrain_rolling_hills/8x8
+      terrain_rolling_hills_med/4x4
+      terrain_rolling_hills_med/8x8
+      light_forest_rolling/4x4
+      light_forest_rolling/8x8
+      dense_forest_rolling/4x4
+      dense_forest_rolling/8x8
+      dunes/4x4
+      dunes/8x8
+      ambush/ambush_teutoburg
+      terrain_steppes/4x4
+      terrain_steppes/8x8
+    </infield>
+    <infield_restriction>
+	
+	settlement_eastern_ports
+	settlement_nordic_ports
+	settlement_sassanid_ports
+	settlement_western_ports
+	settlement_western_christian_ports
+	settlement_western_muslim_ports
+ 	settlement_gondor_ports
+
+	settlement_eastern_cities
+	settlement_nordic_cities
+	settlement_sassanid_cities
+	settlement_western_cities
+	settlement_western_christian_cities
+	settlement_western_muslim_cities
+	settlement_gondor_cities
+	
+      sea_coast_landing
+      sea_coast
+      cliff_custom
+      river_ford
+      river
+      river_crossing
+      river_mouth
+      river_start
+      atlantic_mountains
+      mediterranean_mountains
+      eastern_desert_mountains
+    </infield_restriction>
+  </bca>
+  
+  <bca type="fort_standard" boundary="2">
+  </bca>
+  
+  <bca type="fort_sally" boundary="2">
+  </bca>
+  
+  <bca type="fort_relief" boundary="2">
+  </bca>
+  
+  <bca type="land_normal" boundary="4">
+    <infield>
+      ambush/ambush_teutoburg
+      dunes/nile
+    </infield>
+  </bca>
+  
+  <bca type="land_bridge" boundary="1">
+    <infield>
+      river_ford
+      river_crossing
+    </infield>
+    <infield_restriction>
+	
+	settlement_eastern_ports
+	settlement_nordic_ports
+	settlement_sassanid_ports
+	settlement_western_ports
+	settlement_western_christian_ports
+	settlement_western_muslim_ports
+ 	settlement_gondor_ports
+
+	settlement_eastern_cities
+	settlement_nordic_cities
+	settlement_sassanid_cities
+	settlement_western_cities
+	settlement_western_christian_cities
+	settlement_western_muslim_cities
+	settlement_gondor_cities
+	
+      sea_coast_landing
+      sea_coast
+      cliff_custom
+      atlantic_mountains
+      mediterranean_mountains
+      eastern_desert_mountains
+    </infield_restriction>
+    <deployment category="River" dual_config="false">
+      <restriction>
+        river_ford
+        river
+        river_crossing
+        river_mouth
+        river_start
+      </restriction>
+    </deployment>
+  </bca>
+  
+  <bca type="settlement_standard" boundary="1">
+    <infield>
+	<!--major cities-->
+	settlement_eastern_cities/eastern_city_a/small
+	settlement_eastern_cities/eastern_city_a/medium
+	settlement_eastern_cities/eastern_city_b/small
+	settlement_eastern_cities/eastern_city_b/medium
+	settlement_eastern_cities/eastern_city_c/small
+	settlement_eastern_cities/eastern_city_c/medium
+
+	settlement_nordic_cities/nordic_city_a/small
+	settlement_nordic_cities/nordic_city_a/medium
+	settlement_nordic_cities/nordic_city_b/small
+	settlement_nordic_cities/nordic_city_b/medium
+	settlement_nordic_cities/nordic_city_c/small
+	settlement_nordic_cities/nordic_city_c/medium
+
+	settlement_gondor_cities/gondor_city_cair_andros/medium
+	settlement_gondor_cities/gondor_city_eastern_osgiliath/medium
+	settlement_gondor_cities/gondor_city_ethring/medium
+	settlement_gondor_cities/gondor_city_minas_tirith/medium
+	
+	settlement_sassanid_cities/sassanid_city_a/small
+	settlement_sassanid_cities/sassanid_city_a/medium
+	settlement_sassanid_cities/sassanid_city_b/small
+	settlement_sassanid_cities/sassanid_city_b/medium
+	settlement_sassanid_cities/sassanid_city_c/small
+	settlement_sassanid_cities/sassanid_city_c/medium
+	settlement_sassanid_cities/sassanid_city_ctesiphon/medium
+	settlement_sassanid_cities/sassanid_city_ctesiphon/small
+
+	settlement_western_cities/western_city_a/small
+	settlement_western_cities/western_city_a/medium
+	settlement_western_cities/western_city_b/small
+	settlement_western_cities/western_city_b/medium
+	settlement_western_cities/western_city_c/small
+	settlement_western_cities/western_city_c/medium
+	settlement_western_cities/western_city_rome/medium
+	settlement_western_cities/western_city_rome/small
+	
+	settlement_western_christian_cities/western_christian_city_a/small
+	settlement_western_christian_cities/western_christian_city_a/medium
+	settlement_western_christian_cities/western_christian_city_b/small
+	settlement_western_christian_cities/western_christian_city_b/medium
+	settlement_western_christian_cities/western_christian_city_c/small
+	settlement_western_christian_cities/western_christian_city_c/medium
+	settlement_western_christian_cities/western_christian_city_rome/medium
+	settlement_western_christian_cities/western_christian_city_rome/small
+	
+	settlement_western_muslim_cities/western_muslim_city_a/small
+	settlement_western_muslim_cities/western_muslim_city_a/medium
+	settlement_western_muslim_cities/western_muslim_city_b/small
+	settlement_western_muslim_cities/western_muslim_city_b/medium
+	settlement_western_muslim_cities/western_muslim_city_c/small
+	settlement_western_muslim_cities/western_muslim_city_c/medium
+	settlement_western_muslim_cities/western_muslim_city_rome/medium
+	settlement_western_muslim_cities/western_muslim_city_rome/small
+	
+	<!--minor cities-->
+	settlement_eastern_cities/eastern_city_a/minor
+	settlement_eastern_cities/eastern_city_b/minor
+	settlement_eastern_cities/eastern_city_c/minor
+	
+	
+	settlement_nordic_cities/nordic_city_a/minor
+	settlement_nordic_cities/nordic_city_b/minor
+	settlement_nordic_cities/nordic_city_c/minor
+	
+	settlement_sassanid_cities/sassanid_city_a/minor
+	settlement_sassanid_cities/sassanid_city_b/minor
+	settlement_sassanid_cities/sassanid_city_c/minor
+	
+	settlement_western_christian_cities/western_christian_city_a/minor
+	settlement_western_christian_cities/western_christian_city_b/minor
+	settlement_western_christian_cities/western_christian_city_c/minor
+	
+	settlement_western_muslim_cities/western_muslim_city_a/minor
+	settlement_western_muslim_cities/western_muslim_city_b/minor
+	settlement_western_muslim_cities/western_muslim_city_c/minor
+	
+	settlement_western_cities/western_city_a/minor
+	settlement_western_cities/western_city_b/minor
+	settlement_western_cities/western_city_c/minor
+	
+	<!--major ports-->
+	settlement_eastern_ports/eastern_port_a/small
+	settlement_eastern_ports/eastern_port_a/medium
+	settlement_eastern_ports/eastern_port_b/small
+	settlement_eastern_ports/eastern_port_b/medium
+	settlement_eastern_ports/eastern_port_constantinople/medium
+	settlement_eastern_ports/eastern_port_constantinople/small
+	
+	settlement_nordic_ports/nordic_port_a/small
+	settlement_nordic_ports/nordic_port_a/medium
+	settlement_nordic_ports/nordic_port_b/small
+	settlement_nordic_ports/nordic_port_b/medium
+
+	settlement_gondor_ports/gondor_port_annulond/medium
+	settlement_gondor_ports/gondor_port_dol_amroth/medium
+	settlement_gondor_ports/gondor_port_linhir/medium
+	settlement_gondor_ports/gondor_port_lond_galen/medium
+	settlement_gondor_ports/gondor_port_pelargir/medium
+	settlement_gondor_ports/gondor_port_western_osgiliath/medium
+	
+	settlement_sassanid_ports/sassanid_port_a/small
+	settlement_sassanid_ports/sassanid_port_a/medium
+	settlement_sassanid_ports/sassanid_port_b/small
+	settlement_sassanid_ports/sassanid_port_b/medium
+	
+	settlement_western_ports/western_port_a/small
+	settlement_western_ports/western_port_a/medium
+	settlement_western_ports/western_port_b/small
+	settlement_western_ports/western_port_b/medium
+	settlement_western_ports/western_port_ravenna/medium
+	settlement_western_ports/western_port_ravenna/small
+	
+	settlement_western_christian_ports/western_christian_port_a/small
+	settlement_western_christian_ports/western_christian_port_a/medium
+	settlement_western_christian_ports/western_christian_port_b/small
+	settlement_western_christian_ports/western_christian_port_b/medium
+	settlement_western_christian_ports/western_christian_port_ravenna/medium
+	settlement_western_christian_ports/western_christian_port_ravenna/small
+	
+	settlement_western_muslim_ports/western_muslim_port_a/small
+	settlement_western_muslim_ports/western_muslim_port_a/medium
+	settlement_western_muslim_ports/western_muslim_port_b/small
+	settlement_western_muslim_ports/western_muslim_port_b/medium
+	settlement_western_muslim_ports/western_muslim_port_ravenna/medium
+	settlement_western_muslim_ports/western_muslim_port_ravenna/small
+	
+	<!--minor ports-->
+	settlement_eastern_ports/eastern_port_a/minor
+	settlement_eastern_ports/eastern_port_b/minor
+	
+	settlement_nordic_ports/nordic_port_a/minor
+	settlement_nordic_ports/nordic_port_b/minor
+	
+	settlement_sassanid_ports/sassanid_port_a/minor
+	settlement_sassanid_ports/sassanid_port_b/minor
+	
+	settlement_western_ports/western_port_a/minor
+	settlement_western_ports/western_port_b/minor
+	
+	settlement_western_christian_ports/western_christian_port_a/minor
+	settlement_western_christian_ports/western_christian_port_b/minor
+	
+	settlement_western_muslim_ports/western_muslim_port_a/minor
+	settlement_western_muslim_ports/western_muslim_port_b/minor
+	
+    </infield>
+  </bca>
+  
+  <bca type="settlement_sally" boundary="2">
+  </bca>
+  
+  <bca type="settlement_relief" boundary="2">
+  </bca>
+  
+  <bca type="settlement_unfortified" boundary="2">
+    <infield>
+
+	<!--minor cities-->
+	settlement_eastern_cities/eastern_city_a/minor
+	settlement_eastern_cities/eastern_city_b/minor
+	settlement_eastern_cities/eastern_city_c/minor
+	
+	
+	settlement_nordic_cities/nordic_city_a/minor
+	settlement_nordic_cities/nordic_city_b/minor
+	settlement_nordic_cities/nordic_city_c/minor
+	
+	settlement_sassanid_cities/sassanid_city_a/minor
+	settlement_sassanid_cities/sassanid_city_b/minor
+	settlement_sassanid_cities/sassanid_city_c/minor
+	
+	settlement_western_cities/western_city_a/minor
+	settlement_western_cities/western_city_b/minor
+	settlement_western_cities/western_city_c/minor
+	
+	settlement_western_christian_cities/western_christian_city_a/minor
+	settlement_western_christian_cities/western_christian_city_b/minor
+	settlement_western_christian_cities/western_christian_city_c/minor
+	
+	settlement_western_muslim_cities/western_muslim_city_a/minor
+	settlement_western_muslim_cities/western_muslim_city_b/minor
+	settlement_western_muslim_cities/western_muslim_city_c/minor
+	
+		<!--minor ports-->
+	settlement_eastern_ports/eastern_port_a/minor
+	settlement_eastern_ports/eastern_port_b/minor
+	
+	settlement_nordic_ports/nordic_port_a/minor
+	settlement_nordic_ports/nordic_port_b/minor
+	
+	settlement_sassanid_ports/sassanid_port_a/minor
+	settlement_sassanid_ports/sassanid_port_b/minor
+	
+	settlement_western_ports/western_port_a/minor
+	settlement_western_ports/western_port_b/minor
+	
+	settlement_western_christian_ports/western_christian_port_a/minor
+	settlement_western_christian_ports/western_christian_port_b/minor
+	
+	settlement_western_muslim_ports/western_muslim_port_a/minor
+	settlement_western_muslim_ports/western_muslim_port_b/minor
+	
+    </infield>
+  </bca>
+  
+  <bca type="unfortified_port" boundary="2">
+    <infield>
+	
+	<!--minor-->
+	settlement_eastern_ports/eastern_port_a/minor
+	settlement_eastern_ports/eastern_port_b/minor
+	
+	settlement_nordic_ports/nordic_port_a/minor
+	settlement_nordic_ports/nordic_port_b/minor
+	
+	settlement_sassanid_ports/sassanid_port_a/minor
+	settlement_sassanid_ports/sassanid_port_b/minor
+	
+	settlement_western_ports/western_port_a/minor
+	settlement_western_ports/western_port_b/minor
+	
+	settlement_western_christian_ports/western_christian_port_a/minor
+	settlement_western_christian_ports/western_christian_port_b/minor
+	
+	settlement_western_muslim_ports/western_muslim_port_a/minor
+	settlement_western_muslim_ports/western_muslim_port_b/minor
+	
+    </infield>
+  </bca>
+  
+  <bca type="town_normal" boundary="2">
+  </bca>
+  
+  <bca type="naval_normal" boundary="2">
+  </bca>
+  
+  <bca type="naval_blockade" boundary="2">
+  </bca>
+  
+  <bca type="naval_breakout" boundary="2">
+  </bca>
+  
+  <bca type="port_assault" boundary="2">
+    <infield>
+	
+	<!--major-->
+	settlement_eastern_ports/eastern_port_a/small
+	settlement_eastern_ports/eastern_port_a/medium
+	settlement_eastern_ports/eastern_port_b/small
+	settlement_eastern_ports/eastern_port_b/medium
+	settlement_eastern_ports/eastern_port_constantinople/medium
+	settlement_eastern_ports/eastern_port_constantinople/small
+	
+	settlement_nordic_ports/nordic_port_a/small
+	settlement_nordic_ports/nordic_port_a/medium
+	settlement_nordic_ports/nordic_port_b/small
+	settlement_nordic_ports/nordic_port_b/medium
+	
+	settlement_gondor_ports/gondor_port_annulond/medium
+	settlement_gondor_ports/gondor_port_dol_amroth/medium
+	settlement_gondor_ports/gondor_port_linhir/medium
+	settlement_gondor_ports/gondor_port_lond_galen/medium
+	settlement_gondor_ports/gondor_port_pelargir/medium
+	settlement_gondor_ports/gondor_port_western_osgiliath/medium
+	
+	settlement_sassanid_ports/sassanid_port_a/small
+	settlement_sassanid_ports/sassanid_port_a/medium
+	settlement_sassanid_ports/sassanid_port_b/small
+	settlement_sassanid_ports/sassanid_port_b/medium
+	
+	settlement_western_ports/western_port_a/small
+	settlement_western_ports/western_port_a/medium
+	settlement_western_ports/western_port_b/small
+	settlement_western_ports/western_port_b/medium
+	settlement_western_ports/western_port_ravenna/medium
+	settlement_western_ports/western_port_ravenna/small
+	
+	settlement_western_christian_ports/western_christian_port_a/small
+	settlement_western_christian_ports/western_christian_port_a/medium
+	settlement_western_christian_ports/western_christian_port_b/small
+	settlement_western_christian_ports/western_christian_port_b/medium
+	settlement_western_christian_ports/western_christian_port_ravenna/medium
+	settlement_western_christian_ports/western_christian_port_ravenna/small
+	
+	settlement_western_muslim_ports/western_muslim_port_a/small
+	settlement_western_muslim_ports/western_muslim_port_a/medium
+	settlement_western_muslim_ports/western_muslim_port_b/small
+	settlement_western_muslim_ports/western_muslim_port_b/medium
+	settlement_western_muslim_ports/western_muslim_port_ravenna/medium
+	settlement_western_muslim_ports/western_muslim_port_ravenna/small
+	
+	<!--minor-->
+	settlement_eastern_ports/eastern_port_a/minor
+	settlement_eastern_ports/eastern_port_b/minor
+	
+	settlement_nordic_ports/nordic_port_a/minor
+	settlement_nordic_ports/nordic_port_b/minor
+	
+	settlement_sassanid_ports/sassanid_port_a/minor
+	settlement_sassanid_ports/sassanid_port_b/minor
+	
+	settlement_western_ports/western_port_a/minor
+	settlement_western_ports/western_port_b/minor
+	
+	settlement_western_christian_ports/western_christian_port_a/minor
+	settlement_western_christian_ports/western_christian_port_b/minor
+	
+	settlement_western_muslim_ports/western_muslim_port_a/minor
+	settlement_western_muslim_ports/western_muslim_port_b/minor
+	
+    </infield>
+  </bca>
+  
+  <bca type="battle_arena" boundary="2">
+  </bca>
+  
+  <bca type="unspecified" boundary="2">
+  </bca>
+  
+</root>

@@ -1,0 +1,11 @@
+<TILE serialise_version='3' location='terrain\tiles\battle\ithilien\8x8' tile_set='ithilien' mask='' width='8' height='8' red='0.000000' green='0.000000' blue='0.000000' requires_infield_lodding='true' random_rotatable='true' custom_alpha_blend_texture='' scalable='true' encampable='false' custom_blend_tile=''>
+	<TEXTURE_GROUP red='grass' green='mud' blue='forest' alpha='rock'/>
+	<VARIATIONS>
+		<VARIATION serialise_version='2' location='aa' min_height='1.000000' scale='99.477547' normal_strength='2.000000' overlap_border_size='1.000000' raw_data_tri_density='128' blend_common='' index_common='' normal_common='' red='0.000000' green='0.000000' blue='0.000000' barbarian='false'/>
+		<VARIATION serialise_version='2' location='ab' min_height='1.000000' scale='99.477547' normal_strength='2.000000' overlap_border_size='1.000000' raw_data_tri_density='128' blend_common='' index_common='' normal_common='' red='0.000000' green='0.000000' blue='0.000000' barbarian='false'/>
+		<VARIATION serialise_version='2' location='bb' min_height='1.000000' scale='59.652515' normal_strength='2.000000' overlap_border_size='1.000000' raw_data_tri_density='128' blend_common='' index_common='' normal_common='' red='0.000000' green='0.000000' blue='0.000000' barbarian='false'/>
+		<VARIATION serialise_version='2' location='bc' min_height='-10.000001' scale='120.227203' normal_strength='2.000000' overlap_border_size='1.000000' raw_data_tri_density='128' blend_common='' index_common='' normal_common='' red='0.000000' green='0.000000' blue='0.000000' barbarian='false'/>
+	</VARIATIONS>
+	<TILE_LINK_TARGETS/>
+	<TILE_LINKS/>
+</TILE>

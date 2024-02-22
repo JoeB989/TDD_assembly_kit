@@ -1,0 +1,8 @@
+<TILE serialise_version='3' location='terrain\tiles\battle\eastern_desert_mountains\small_point_30_r' tile_set='eastern_desert_mountains' mask='0000011000011100011110111111011111101111100111110111110011111001111100111110011110000110000' width='7' height='13' red='185.000000' green='55.000000' blue='25.000000' requires_infield_lodding='true' random_rotatable='true' custom_alpha_blend_texture='terrain\textures\battle\alpha\small_point_30_r_mask.dds' scalable='false' encampable='false' custom_blend_tile=''>
+	<TEXTURE_GROUP red='forest' green='mud' blue='mountain' alpha='grass'/>
+	<VARIATIONS>
+		<VARIATION serialise_version='2' location='aa' min_height='0.000000' scale='422.573853' normal_strength='2.000000' overlap_border_size='1.000000' raw_data_tri_density='32' blend_common='' index_common='' normal_common='' red='0.000000' green='0.000000' blue='0.000000' barbarian='false'/>
+	</VARIATIONS>
+	<TILE_LINK_TARGETS/>
+	<TILE_LINKS/>
+</TILE>

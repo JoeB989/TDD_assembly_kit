@@ -1,0 +1,4 @@
+[Terrain]
+	save_meta_data_map = true
+	save_final_tile_map = true
+	TileDatabase = terrain\tiles\campaign\_tile_database

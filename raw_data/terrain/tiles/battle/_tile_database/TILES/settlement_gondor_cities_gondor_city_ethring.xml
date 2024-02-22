@@ -1,0 +1,21 @@
+<TILE serialise_version='3' location='terrain\tiles\battle\settlement_gondor_cities\gondor_city_ethring
+' tile_set='settlement_gondor_cities' mask='' width='8' height='8' red='56.000000' green='53.000000' blue='111.000000' requires_infield_lodding='true' random_rotatable='true' custom_alpha_blend_texture='' scalable='true' encampable='false' custom_blend_tile=''>
+	<TEXTURE_GROUP red='urban_1' green='settlement_1' blue='forest' alpha='rock'/>
+	<VARIATIONS>
+		<VARIATION serialise_version='2' location='battlefield' min_height='-15.000004' scale='7580.000000' normal_strength='2.000000' overlap_border_size='1.000000' raw_data_tri_density='128' blend_common='' index_common='' normal_common='' red='0.000000' green='0.000000' blue='0.000000' barbarian='false'/>
+	</VARIATIONS>
+	<TILE_LINK_TARGETS>
+		<TILE_LINK_TARGET serialise_version='1' tile_set='river' x='4' y='0'/>
+		<TILE_LINK_TARGET serialise_version='1' tile_set='river' x='5' y='0'/>
+		<TILE_LINK_TARGET serialise_version='1' tile_set='river' x='0' y='6'/>
+		<TILE_LINK_TARGET serialise_version='1' tile_set='river' x='0' y='5'/>
+	</TILE_LINK_TARGETS>
+	<TILE_LINKS>
+		<TILE_LINK serialise_version='1' link_set='river' x='4' y='-1' base_x='0' base_y='0' is_entry='false' blend_size='64' no_offline_blend='false' test='TLT_EQUALS'>
+			<blend_quad/>
+		</TILE_LINK>
+		<TILE_LINK serialise_version='1' link_set='river' x='-1' y='6' base_x='0' base_y='0' is_entry='false' blend_size='64' no_offline_blend='false' test='TLT_EQUALS'>
+			<blend_quad/>
+		</TILE_LINK>
+	</TILE_LINKS>
+</TILE>

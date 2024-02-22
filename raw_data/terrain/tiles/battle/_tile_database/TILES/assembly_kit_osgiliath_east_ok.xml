@@ -1,0 +1,14 @@
+<TILE serialise_version='3' location='terrain\tiles\battle\assembly_kit\osgiliath_east_ok' tile_set='assembly_kit' mask='' width='8' height='8' red='101.000000' green='59.000000' blue='128.000000' requires_infield_lodding='true' random_rotatable='true' custom_alpha_blend_texture='' scalable='true' encampable='false' custom_blend_tile=''>
+	<TEXTURE_GROUP red='grass' green='mud' blue='urban' alpha='rock'/>
+	<VARIATIONS>
+		<VARIATION serialise_version='2' location='battlefield' min_height='-34.848484' scale='47.139175' normal_strength='2.000000' overlap_border_size='1.000000' raw_data_tri_density='128' blend_common='' index_common='' normal_common='' red='0.000000' green='0.000000' blue='0.000000' barbarian='false'/>
+	</VARIATIONS>
+	<TILE_LINK_TARGETS>
+		<TILE_LINK_TARGET serialise_version='1' tile_set='sea_coast' x='0' y='7'/>
+	</TILE_LINK_TARGETS>
+	<TILE_LINKS>
+		<TILE_LINK serialise_version='1' link_set='sea_coast' x='0' y='8' base_x='0' base_y='0' is_entry='false' blend_size='64' no_offline_blend='false' test='TLT_EQUALS'>
+			<blend_quad/>
+		</TILE_LINK>
+	</TILE_LINKS>
+</TILE>

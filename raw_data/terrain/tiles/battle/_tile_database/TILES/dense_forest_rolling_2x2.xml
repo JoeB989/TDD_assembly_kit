@@ -1,0 +1,12 @@
+<TILE serialise_version='3' location='terrain\tiles\battle\dense_forest_rolling\2x2' tile_set='dense_forest_rolling' mask='' width='2' height='2' red='0.000000' green='0.000000' blue='0.000000' requires_infield_lodding='true' random_rotatable='true' custom_alpha_blend_texture='' scalable='false' encampable='false' custom_blend_tile=''>
+	<TEXTURE_GROUP red='grass' green='mud' blue='rock' alpha='forest'/>
+	<VARIATIONS>
+		<VARIATION serialise_version='2' location='aa' min_height='-0.532077' scale='15.520578' normal_strength='1.000000' overlap_border_size='1.000000' raw_data_tri_density='128' blend_common='' index_common='' normal_common='' red='0.000000' green='0.000000' blue='0.000000' barbarian='false'/>
+		<VARIATION serialise_version='2' location='ab' min_height='-0.683154' scale='16.127371' normal_strength='1.000000' overlap_border_size='1.000000' raw_data_tri_density='128' blend_common='' index_common='' normal_common='' red='0.000000' green='0.000000' blue='0.000000' barbarian='false'/>
+		<VARIATION serialise_version='2' location='ac' min_height='-0.562492' scale='16.332819' normal_strength='1.000000' overlap_border_size='1.000000' raw_data_tri_density='128' blend_common='' index_common='' normal_common='' red='0.000000' green='0.000000' blue='0.000000' barbarian='false'/>
+		<VARIATION serialise_version='2' location='ad' min_height='0.319341' scale='39.704281' normal_strength='1.000000' overlap_border_size='1.000000' raw_data_tri_density='128' blend_common='' index_common='' normal_common='' red='0.000000' green='0.000000' blue='0.000000' barbarian='false'/>
+		<VARIATION serialise_version='2' location='ae' min_height='0.855863' scale='39.144138' normal_strength='1.000000' overlap_border_size='1.000000' raw_data_tri_density='128' blend_common='' index_common='' normal_common='' red='0.000000' green='0.000000' blue='0.000000' barbarian='false'/>
+	</VARIATIONS>
+	<TILE_LINK_TARGETS/>
+	<TILE_LINKS/>
+</TILE>

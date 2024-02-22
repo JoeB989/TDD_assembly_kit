@@ -1,0 +1,6 @@
+[TerrainTile]
+	TileDatabase = terrain\tiles\battle\_tile_database
+
+[RigidModelV2]
+	TargetPath = terrain\tiles\battle
+	TextureFolder = terrain\tiles\battle

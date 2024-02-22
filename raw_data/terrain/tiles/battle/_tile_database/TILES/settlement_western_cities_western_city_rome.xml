@@ -1,0 +1,19 @@
+<TILE serialise_version='3' location='terrain\tiles\battle\settlement_western_cities\western_city_rome' tile_set='settlement_western_cities' mask='' width='8' height='8' red='150.000000' green='75.000000' blue='54.000000' requires_infield_lodding='true' random_rotatable='false' custom_alpha_blend_texture='' scalable='false' encampable='false' custom_blend_tile=''>
+	<TEXTURE_GROUP red='settlement_1' green='settlement_2' blue='settlement_3' alpha='forest'/>
+	<VARIATIONS>
+		<VARIATION serialise_version='2' location='small' min_height='-12.421365' scale='53.421364' normal_strength='2.000000' overlap_border_size='1.000000' raw_data_tri_density='128' blend_common='' index_common='' normal_common='' red='150.000000' green='75.000000' blue='69.000000' barbarian='false'/>
+		<VARIATION serialise_version='2' location='medium' min_height='-12.421365' scale='53.421364' normal_strength='2.000000' overlap_border_size='1.000000' raw_data_tri_density='128' blend_common='' index_common='' normal_common='' red='150.000000' green='75.000000' blue='70.000000' barbarian='false'/>
+	</VARIATIONS>
+	<TILE_LINK_TARGETS>
+		<TILE_LINK_TARGET serialise_version='1' tile_set='river' x='3' y='7'/>
+		<TILE_LINK_TARGET serialise_version='1' tile_set='river' x='3' y='0'/>
+	</TILE_LINK_TARGETS>
+	<TILE_LINKS>
+		<TILE_LINK serialise_version='1' link_set='river' x='3' y='8' base_x='1' base_y='0' is_entry='false' blend_size='64' no_offline_blend='false' test='TLT_EQUALS'>
+			<blend_quad/>
+		</TILE_LINK>
+		<TILE_LINK serialise_version='1' link_set='river' x='3' y='-1' base_x='1' base_y='0' is_entry='true' blend_size='64' no_offline_blend='false' test='TLT_EQUALS'>
+			<blend_quad/>
+		</TILE_LINK>
+	</TILE_LINKS>
+</TILE>
